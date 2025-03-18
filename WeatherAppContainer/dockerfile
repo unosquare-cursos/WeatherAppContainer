@@ -1,0 +1,29 @@
+### Etapa 1: Compilación de la aplicación ###
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+# Copiar archivos del proyecto y restaurar dependencias
+COPY WeatherAppContainer/WeatherAppContainer.csproj WeatherAppContainer/
+RUN dotnet restore WeatherAppContainer/WeatherAppContainer.csproj --force
+
+# Copiar el resto del código
+COPY . .
+
+# Verificar estructura de archivos dentro del contenedor
+RUN ls -R /app
+
+# Publicar la aplicación
+WORKDIR /app/WeatherAppContainer
+RUN dotnet publish -c Release -o /publish
+
+### Etapa 2: Servir la aplicación ###
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /publish .
+
+# Exponer los puertos
+EXPOSE 80
+EXPOSE 443
+
+# Comando de inicio
+ENTRYPOINT ["dotnet", "WeatherAppContainer.dll"]
