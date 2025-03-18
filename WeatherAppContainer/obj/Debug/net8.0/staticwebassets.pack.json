@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WeatherAppContainer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WeatherAppContainer.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeatherAppContainer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WeatherAppContainer.props",
+      "PackagePath": "build\\WeatherAppContainer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WeatherAppContainer.props",
+      "PackagePath": "buildMultiTargeting\\WeatherAppContainer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WeatherAppContainer.props",
+      "PackagePath": "buildTransitive\\WeatherAppContainer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
