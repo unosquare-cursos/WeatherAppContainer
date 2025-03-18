@@ -21,8 +21,11 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /publish .
 
+# Sobrescribir la variable de entorno
+ENV ASPNETCORE_HTTP_PORTS=9090
+
 # Exponer los puertos
-EXPOSE 80
+EXPOSE 9090
 EXPOSE 443
 
 # Comando de inicio

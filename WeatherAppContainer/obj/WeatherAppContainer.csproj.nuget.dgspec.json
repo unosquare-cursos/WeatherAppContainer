@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer.csproj": {}
+    "C:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer\\WeatherAppContainer.csproj": {}
   },
   "projects": {
-    "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer.csproj": {
+    "C:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer\\WeatherAppContainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer.csproj",
+        "projectUniqueName": "C:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer\\WeatherAppContainer.csproj",
         "projectName": "WeatherAppContainer",
-        "projectPath": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer.csproj",
+        "projectPath": "C:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer\\WeatherAppContainer.csproj",
         "packagesPath": "C:\\Users\\edgar.uribe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\obj\\",
+        "outputPath": "C:\\Users\\edgar.uribe\\source\\repos\\WeatherAppContainer\\WeatherAppContainer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
